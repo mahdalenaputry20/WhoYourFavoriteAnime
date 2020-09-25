@@ -1,0 +1,469 @@
+@font-face {
+    font-family: 'Crowny' ;
+    src: url(../font/crowny.otf);
+}
+
+@font-face {
+    font-family: 'Routhers' ;
+    src: url(../font/Routhers.ttf);
+}
+
+@font-face {
+    font-family: 'AdeliaBold' ;
+    src: url(../font/adeliaBold.otf);
+}
+
+@font-face {
+    font-family: 'Adelia' ;
+    src: url(../font/adelia.otf);
+}
+
+@font-face {
+    font-family: 'Glory' ;
+    src: url(../font/glory.ttf);
+}
+
+
+h1 {
+    margin: auto;
+    top: 0;
+    font-size: 100px;
+    font-family: 'Crowny';
+    padding: 40px;
+}
+
+.qlabel {
+    padding: 30px;
+    margin: auto;
+    position: relative;
+    font-size: medium;
+}
+
+.qinput{ 
+    padding: 30px;
+    font-size:40px;
+    font-family: 'Adelia';
+    position: relative;
+    margin: auto;
+    min-width: 400px;
+    text-align: left;
+}
+
+.ansinput {
+    padding: 0 30px;
+    height: 50px;
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+
+.checkAns {
+    margin: 0;
+    padding: 0 30px;
+    font-size: 27px;
+    color: black;
+    font-family: 'Glory';
+    height: 50px;
+    width: 150px;
+}
+
+.checkAns:hover {
+    box-shadow: 2px 2px white;
+}
+
+.lanjut {
+    margin: 0;
+    padding: 0 30px;
+    font-size: 27px;
+    color: black;
+    font-family: 'Glory';
+    height: 50px;
+    width: 150px;
+}
+
+.lanjut:hover {
+    box-shadow: 2px 2px white;
+}
+
+
+.close {
+    margin: 0;
+    padding: 0 30px;
+    font-size: 27px;
+    color: black;
+    font-family: 'Glory';
+    height: 50px;
+    width: 150px;
+}
+
+.close:hover {
+    box-shadow: 2px 2px white;
+}
+
+
+
+/* ======================INDEX==================== */
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+    min-height: 100vh; 
+	cursor: hand;
+}
+
+body {
+	background-image: url(../bg/1.jpg);
+	background-size: cover;
+}
+
+
+.btn-start {
+    color: white;
+    background-image: url(../bg/bilal-o-ljXekphwr40-unsplash.jpg);
+    height: 70px;
+    width: 300px;
+    padding:10px 20px;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-size:20pt;
+    border-bottom: 1px  solid #e22f79;
+    position: relative;
+    margin:  auto;
+    
+}
+/* ================END INDEX=================== */
+/* ================START======================== */
+
+
+.body-start {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.body-start {
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+    min-height: 100vh; 
+}
+
+.body-start {
+	background-image: url(../bg/0cp76g.jpg);
+	background-size: cover;
+}
+
+
+.anime1 {
+    background-image: url(../img/6.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 225px;
+    width: 225px;
+    padding:20px 50px;
+    text-decoration:none;
+    position: relative;
+    margin:  10px 20px;  
+    border-radius: 8%;
+   
+}
+
+.anime1:hover {
+    box-shadow:10px 10px;
+}
+
+.anime2 {
+    background-image: url(../img/2.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 225px;
+    width: 225px;
+    padding:20px 50px;
+    text-decoration:none;
+    position: relative;
+    margin:  10px 20px;  
+    border-radius: 8%;
+
+}
+
+.anime2:hover {
+    box-shadow:10px 10px;
+}
+
+.anime3 {
+    background-image: url(../img/5.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 225px;
+    width: 225px;
+    padding:20px 50px;
+    text-decoration:none;
+    position: relative;
+    margin:  10px 20px;  
+    border-radius: 8%;
+}
+
+.anime3:hover {
+    box-shadow:10px 10px;
+}
+
+.anime4 {
+    background-image: url(../img/8.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 225px;
+    width: 225px;
+    padding:20px 50px;
+    text-decoration:none;
+    font-family:sans-serif;
+    font-size:20pt;
+    position: relative;
+    margin:  10px 20px;  
+    border-radius: 8%;
+}
+
+.anime4:hover {
+    box-shadow:10px 10px;
+}
+
+.anime5 {
+    background-image: url(../img/12.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 225px;
+    width: 225px;
+    padding:20px 50px;
+    text-decoration:none;
+    position: relative;
+    margin:  10px 20px;  
+    border-radius: 8%;
+}
+
+.anime5:hover {
+    box-shadow:10px 10px;
+}
+
+.anime6 {
+    background-image: url(../img/7.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 225px;
+    width: 225px;
+    padding:20px 50px;
+    text-decoration:none;
+    position: relative;
+    margin:  10px 20px;  
+    border-radius: 8%;
+}
+
+.anime6:hover {
+    box-shadow:10px 10px;
+}
+
+
+.anime7 {
+    background-image: url(../bg/pawel-czerwinski-MqGEEmx8bKs-unsplash.jpg);
+    height: 30px;
+    width: 500px;
+    padding:50px 0;
+    text-align: center ;
+    text-decoration:none;
+    font-family: 'Crowny','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size:40px;
+    position: relative;
+    margin:  auto;  
+    top: 100px;
+    border-radius: 8%;
+}
+
+.backhome {
+
+    background-image: url(../bg/pawel-czerwinski-ruJm3dBXCqw-unsplash.jpg);
+    width: 100px;
+    padding:25px 0;
+    text-align: center ;
+    text-decoration:none;
+    font-family: 'Crowny','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+    font-size:30px;
+    position: relative;
+    margin:  0;
+    top: 100px;
+    border-radius: 8%;
+
+}
+
+.backhome:hover {
+
+    box-shadow: 7px 7px;
+}
+/* ==================END START==================== */
+
+/* ==================SHINA GAME==================== */
+
+
+.shina-game {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.shina-game{
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+    min-height: 100vh; 
+}
+
+.shina-game {
+	background-image: url(../bg/7.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ======================END SHINA GAME=============== */
+
+/* ===================SAGIRI GAME ==================== */
+
+.sagiri-game {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.sagiri-game{
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+    min-height: 100vh; 
+}
+
+.sagiri-game {
+	background-image: url(../bg/6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* =====================SAGIRI GAME ================= */
+
+/* =====================KANA GAME ==================== */
+
+.kana-game {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.kana-game{
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+    min-height: 100vh; 
+}
+
+.kana-game {
+	background-image: url(../bg/5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* =========================END KANA GAME ============== */
+
+/* ============================ SAITAMA GAME ================== */
+.sai {
+    color: black;
+}
+
+#quest14 {
+    color:rgb(0, 0, 0);
+    font-style: bold;
+}
+.saitama-game {
+    color: white;
+	margin: 50px 100px auto;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.saitama-game{
+	display: block;
+	align-items: center;
+	justify-content: center; 
+    min-height: 100vh; 
+}
+
+.saitama-game {
+	background-image: url(../bg/8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* ======================= END SAITAMA GAME ======================== */
+
+/* ===================== DORAEMON GAME ========================== */
+
+.doraemon-game {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.doraemon-game{
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+    min-height: 100vh; 
+}
+
+.doraemon-game {
+	background-image: url(../bg/10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* =========================== END GAME DORAEMON==================== */
+
+/* ===============================HINATA GAME ===================== */
+
+.hinata-game {
+	margin: 50px 50px;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.hinata-game{
+	display: block;
+	align-items: center;
+	justify-content: center; 
+    min-height: 100vh; 
+}
+
+.hinata-game {
+	background-image: url(../bg/9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.qinput {
+    color: white;
+}
+
+/* ===================================END HINATA GAME======================= */
+
